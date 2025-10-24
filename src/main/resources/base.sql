@@ -1,0 +1,9 @@
+
+
+
+INSERT INTO ROLE(nom) VALUES('USER');
+INSERT INTO ROLE(nom) VALUES('ADMIN');
+INSERT INTO CLIENT(nom,prenom) VALUES('Diop','Aminata');
+INSERT INTO CLIENT(nom,prenom) VALUES('Fall','Cheikh');
+INSERT INTO COMPTE(solde, client_id) VALUES(1000,1);
+INSERT INTO COMPTE(solde, client_id) VALUES(2000,2);
